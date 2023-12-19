@@ -59,6 +59,8 @@ exports.post_list = asyncHandler(async (req, res, next) => {
     .sort({ timestamp: 1 })
     .populate("title")
     .populate("text")
+    .populate("visible")
+
     .exec();
 
   res.send(allPosts);

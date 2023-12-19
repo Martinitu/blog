@@ -5,7 +5,7 @@ const Post = new Schema({
     title: { type: String, required: true },
     text: { type: String, required: true },
     timestamp: { type : Date, default: Date.now  },
-    visible: { type: Boolean, default: true },
+    visible: { type: Boolean, default: true, require: true },
     user: { type: Schema.Types.ObjectId, ref: "User"},
 });
 

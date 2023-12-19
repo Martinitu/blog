@@ -46,3 +46,19 @@ asyncHandler( async (req, res, next) => {
   });
   }),
 ];
+
+exports.sign_in_post = passport.authenticate("local", {
+  successRedirect: "/blog/successful-signin",
+  failureRedirect: "/"
+});
+
+
+
+  exports.logOut_get = ("/log-out", (req, res, next) => {
+    req.logout((err) => {
+      if (err) {
+        return next(err);
+      }
+      res.redirect("/");
+    });
+  });

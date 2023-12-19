@@ -1,0 +1,197 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #e2e607;
+  font-size: 3.2em;
+  line-height: 1.1;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none
+  
+}
+
+.link {
+  font-size: 20px;
+  margin: 20px;
+  color: #e2e607;
+}
+
+.header {
+  background-color: rgb(84, 82, 82);
+  padding: 30px 0 30px 0;
+}
+
+h3 {
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+
+}
+h2 {
+  font-weight: 300;
+  padding: 0;
+  margin: 10px 0 0 0;
+
+}
+
+input {
+  border-radius: 5px;
+  border: none;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+    justify-content: center;
+
+}
+
+.postTitle {
+
+  color: #e2e607;
+
+}
+
+.postText {
+  font-weight: 300;
+}
+
+.post {
+  align-items: center;
+    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  min-width: 100px;
+  
+}
+
+.comments {
+  display: flex;
+
+  flex-direction: column;
+  max-width: 400px;
+}
+
+form {
+ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+  padding: 10px;
+}
+
+form input {
+  margin: 10px;
+}
+
+.commentTextInput {
+  max-width: 500px;
+  min-width: 400px;
+  min-height: 100px;
+}
+
+
+
+
+
+
+.commentsUl {
+display: flex;
+flex-direction: column;
+max-width: 700px;
+
+
+}
+.comment {
+  margin: 10px;
+  min-width: 400px;
+  background-color: rgb(157, 156, 156);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+.comment p {
+  margin: 0;
+}
+
+.commentName {
+  font-weight: 100;
+  font-size: 12px;
+  
+}
+
+.commentText {
+  font-weight: 700;
+
+}
+
+.createPost {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* CSS */
+.button-13 {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+}
+
+.button-13:hover {
+  background-color: #f7fafa;
+}
+
+.button-13:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+}

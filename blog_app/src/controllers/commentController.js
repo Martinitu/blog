@@ -41,7 +41,7 @@ asyncHandler( async (req, res, next) => {
                
            });
            const result = await comment.save();
-           res.send(comment)
+           res.status(201).send({ message: 'Comment created successfully', comment: result });
     
          } catch(err) {
            return next(err);

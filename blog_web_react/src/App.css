@@ -1,0 +1,26 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+a {
+  
+  color: rgb(136, 124, 124);
+  text-decoration: none;
+  font-size: 25px;
+  
+}
+
+a:hover {
+  color: white;
+  size: 30px;
+}
+
+.post {
+  background-color: rgb(84, 82, 82);
+  display: flex;
+  
+}
+
